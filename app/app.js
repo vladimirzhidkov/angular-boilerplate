@@ -1,6 +1,6 @@
 
 
-angular.module('app', ['ui.router', 'app.view1', 'app.view2'])
+angular.module('app', ['ui.router', 'app.view1', 'app.view2'] )
     .config(['$urlRouterProvider', '$stateProvider',  function($urlRouterProvider, $stateProvider) {
 
         $urlRouterProvider.otherwise('/app/view1');
