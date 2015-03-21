@@ -9,5 +9,5 @@ angular.module('app.view1', [])
         });
     }])
     .controller('View1Ctrl', [function() {
-
+        //this.msg = 'hello';
     }]);

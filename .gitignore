@@ -3,6 +3,6 @@ logs/*
 dist/
 node_modules/
 app/bower_components/
-app/all.js
+app/bundled.js
 .DS_Store
 .idea
